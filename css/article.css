@@ -6,7 +6,6 @@
 
 .wrapper-min {
   max-width: 1095px;
-  margin-left: 0;
 }
 
 .wrapper-min img {
@@ -24,12 +23,11 @@
 }
 
 .article {
-  padding-top: 85px;
-  padding-bottom: 75px;
+  padding: 85px 0 75px;
 }
 
-.section {
-  margin-bottom: 33px;
+.article section:last-child {
+  margin-bottom: 0;
 }
 
 .article-list {
@@ -46,34 +44,25 @@
 
 .article-img {
   padding-top: 27px;
-  padding-bottom: 33px;
+  padding-bottom: 50px;
 }
 
 .section-title {
-  text-decoration: none;
-  /* font-family: Lato, sans-serif; */
   margin: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
 }
 
-.one-title {
+.h1-title {
   font-size: 50px;
   line-height: 65px;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-.two-title,
-.three-title {
-  font-size: 22px;
-  line-height: 33px;
-}
-
-.two-title {
+.bold-title {
   font-weight: 700;
-}
-
-.three-title {
-  font-weight: 400;
 }
 
 .paragraph-one {
