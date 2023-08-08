@@ -1,5 +1,6 @@
 @import url("normalize.css");
 @import url("article.css");
+@import url("style.css");
 
 
 @font-face {
@@ -70,7 +71,7 @@ ul {
 }
 
 ol {
-  padding: 0;
+  padding-left: 55px;
   margin: 0;
 }
 
@@ -93,8 +94,8 @@ iframe {
 */
 
 .visually-hidden {
-  position: fixed;
   transform: scale(0);
+  position: fixed;
 }
 
 

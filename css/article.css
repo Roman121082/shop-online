@@ -2,19 +2,20 @@
   padding: 95px 0 85px;
 }
 
-.previos {
+.previos__prev {
   padding-bottom: 45px;
+  padding-top: 90px;
 }
 
-.previos-title {
+.previos__title {
   font-size: 50px;
   line-height: 65px;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-.previos-box {
-  margin-bottom: 45px;
+.previos__title:last-child {
+  margin-bottom: 50px;
 }
 
 .paragraph {
@@ -25,24 +26,25 @@
   margin: 0;
 }
 
-.previos-menu {
+.previos__menu {
   margin-bottom: 50px;
   font-size: 16px;
   line-height: 24px;
   color: #525252;
 }
 
-.previos-list {
+.previos__list {
   padding-left: 17px;
 }
 
-.article-img {
+.articleimg {
   max-width: 1095px;
   height: 100%;
 }
 
-.article-img_care {
-  padding: 32px 0 45px;
+
+.nav {
+  margin: 0;
 }
 
 .section {
@@ -53,11 +55,27 @@
   padding: 0;
 }
 
-.section-title {
+.section__title {
   font-size: 22px;
   line-height: 33px;
 }
 
-.section-title_bold {
+.section__title_bold {
   font-weight: 700;
+}
+
+.previos__menu {
+  margin: 0;
+}
+
+.article__img {
+  padding-top: 0;
+}
+
+.article {
+  padding: 0;
+}
+
+.article__img {
+  padding: 50px 0 60px;
 }
